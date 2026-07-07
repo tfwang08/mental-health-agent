@@ -1,0 +1,4 @@
+interface:
+  display_name: "心理健康安全门"
+  short_description: "在心理健康支持前应用安全边界。"
+  default_prompt: "在任何心理健康支持工作流前使用 mental-health-safety-harness skill。"
