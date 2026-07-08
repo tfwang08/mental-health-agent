@@ -15,12 +15,67 @@ This is a mental-health support agent prototype containing project-local Codex s
 
 The first phase focuses on anxiety support. The project intentionally starts with safety infrastructure before adding more intervention workflows.
 
+## Current Status
+
+This repository is currently a **safety- and evidence-first prototype**, not a complete mental-health product.
+
+The current focus is to establish:
+
+- non-diagnostic boundaries;
+- crisis and medical-red-flag routing;
+- clinical-source-first skill design rules;
+- synthetic safety evaluation cases;
+- an engineering foundation for later anxiety-support workflows.
+
+## Project Highlights
+
+### 1. Clinical sources first, not model improvisation
+
+The core principle is **evidence-first**: mental-health skills must be grounded in clinical guidelines, public-health guidance, validated measurement practices, or clearly identified low-risk supportive techniques.
+
+The project should not let the model invent diagnoses, treatment suggestions, or professional-sounding explanations without a traceable source.
+
+### 2. Non-diagnostic by design
+
+Internal formulation is used only for safety routing and support-path selection. It must not be exposed to users as a diagnosis, suspected condition, or disease label.
+
+User-facing language should prefer:
+
+- "This is not a diagnosis."
+- "This pattern is worth discussing with a qualified professional."
+- "Let's check safety first, then decide on a suitable next step."
+
+It should avoid:
+
+- "You have this disorder."
+- "You probably have this diagnosis."
+- "This score confirms a condition."
+
+### 3. Safety routing before self-help
+
+Every mental-health workflow should pass through `mental-health-safety-harness` first.
+
+If crisis signals, medical red flags, medication or substance risks, or severe functional impairment are present, the system should route to safety guidance before ordinary anxiety exercises.
+
+### 4. Clinical source families
+
+Current design is informed by:
+
+- NICE CG113: management of generalized anxiety disorder and panic disorder in adults;
+- NICE NG225: assessment, management, and prevention of recurrence after self-harm;
+- NHS Talking Therapies: stepped care, standardized measures, and outcome monitoring;
+- WHO psychological self-help and scalable psychological intervention materials;
+- SAFE-T / C-SSRS concepts: direct inquiry and safety-relevant elements for suicide-related risk.
+
+These sources constrain what the agent may do, what it must not do, and when it should redirect to human or medical support. They are not used to let the agent diagnose users.
+
 ## Project Structure
 
 - `.agents/skills/`: project-local Codex skills.
 - `safety/`: shared safety boundaries, routing rules, and response constraints.
 - `evals/`: synthetic safety and regression test cases.
 - `docs/`: design notes and evidence documentation.
+- `scripts/`: local validation and test scripts.
 
 ## Current Skills
 
