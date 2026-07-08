@@ -1,7 +1,7 @@
-# 许可证
+# License
 
-本项目暂未选择正式开源许可证。
+This project has not selected a formal open-source license yet.
 
-在正式选择许可证前，默认保留全部权利。公开仓库可用于查看、讨论和提出 issue，但复制、修改、分发或商用前需要获得维护者明确许可。
+Until a license is chosen, all rights are reserved. The public repository may be viewed and discussed, but copying, modifying, distributing, or commercial use requires explicit permission from the maintainers.
 
-后续可以根据项目目标选择合适许可证，例如 MIT、Apache-2.0、MPL-2.0 或其他许可证。
+A future release may choose an appropriate license such as MIT, Apache-2.0, MPL-2.0, or another suitable license depending on project goals.
