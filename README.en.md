@@ -69,6 +69,24 @@ Current design is informed by:
 
 These sources constrain what the agent may do, what it must not do, and when it should redirect to human or medical support. They are not used to let the agent diagnose users.
 
+## How is this different from chatting directly in Codex?
+
+Directly chatting with Codex or a general-purpose chat model mostly depends on the current prompt, the model's default behavior, and any temporary reminders added by the user. This repository is not meant to make the model simply "chat better". Its purpose is to engineer the safety boundaries, clinical grounding, and workflow constraints needed for mental-health support scenarios.
+
+Main differences:
+
+| Dimension | Direct chat | This project |
+|---|---|---|
+| Clinical grounding | Often depends on the model's current answer, with limited traceability | Each mental-health skill should document its clinical basis, scope, and limitations |
+| Safety order | The conversation may jump directly into reassurance, analysis, or suggestions | Mental-health workflows pass through the safety harness before ordinary support continues |
+| Diagnostic boundary | Users can easily push the model toward doctor-like judgments | Diagnosis and user-facing suspected disorder labels are explicitly prohibited |
+| Medical red flags | Physical warning signs may be over-explained as anxiety | Medical red flags are handled before anxiety explanations |
+| Reuse | Each conversation starts over | Rules, skills, docs, and evals live in the repo and can be reviewed, reused, and improved |
+| Regression testing | It is hard to know whether a prompt change weakened safety | Synthetic eval cases and validation scripts can catch safety regressions over time |
+| Extension model | Add more prompt instructions | Add evidence-aligned skills, references, and eval cases |
+
+In short: **direct chat is a one-off model interaction; this project is a reviewable, testable, and extensible mental-health agent engineering scaffold.**
+
 ## Project Structure
 
 - `.agents/skills/`: project-local Codex skills.
@@ -81,6 +99,7 @@ These sources constrain what the agent may do, what it must not do, and when it 
 
 - `mental-health-safety-harness`: top-level safety gate for all mental-health workflows.
 - `risk-crisis-triage`: routing for crisis, self-harm, violence risk, psychosis-like symptoms, severe impairment, medication risks, and medical red flags.
+- `anxiety-intake-assessment`: non-diagnostic structured intake for anxiety-related support.
 
 ## Non-Clinical Positioning
 
