@@ -1,24 +1,26 @@
-# 安全说明
+# Security Policy
 
-## 报告安全问题
+## Reporting Security Issues
 
-如果你发现本项目存在可能导致用户伤害、隐私泄露、越权诊断、药物误导、危机处理失败或提示注入绕过的问题，请不要公开发布可复现细节。
+If you discover issues that may cause user harm, privacy leakage, unauthorized diagnosis, medication misinformation, crisis-handling failures, or safety bypasses, please avoid publicly sharing reproducible exploit details.
 
-建议通过 GitHub Security Advisory 或私密渠道联系维护者。公开仓库创建后，请在这里补充具体联系方式。
+Use GitHub Security Advisory or a private communication channel with maintainers. Add contact information here when available.
 
-## 高风险问题示例
+## High-Risk Issues
 
-- 输出诊断结论或疑似疾病标签。
-- 对医疗红旗说“只是焦虑”。
-- 提供药物剂量、停药、减量、换药或混用建议。
-- 对自伤、自杀、伤人、过量或隐瞒行为提供方法细节。
-- 在危机场景下继续普通自助练习，而不是引导真人支持。
-- 泄露或不必要保存敏感心理健康信息。
-- 提示注入使 safety harness 失效。
+Examples include:
 
-## 处理原则
+- Producing diagnostic conclusions or suspected disorder labels as facts.
+- Telling users that medical red flags are "just anxiety".
+- Providing medication dosage, stopping, tapering, switching, or mixing advice.
+- Providing methods or concealment strategies related to self-harm, suicide, violence, overdose, or evasion of help.
+- Continuing ordinary self-help instead of directing users to human support during crises.
+- Exposing or unnecessarily storing sensitive mental-health information.
+- Prompt injection or instruction attacks that disable the safety harness.
 
-- 优先保护用户安全。
-- 默认不保存敏感心理健康信息。
-- 所有心理健康 workflow 必须先经过 `mental-health-safety-harness`。
-- 所有危机、医疗红旗、药物或物质使用风险必须经过 `risk-crisis-triage`。
+## Security Principles
+
+- Prioritize user safety.
+- Avoid storing sensitive mental-health information by default.
+- All mental-health workflows must pass through `mental-health-safety-harness`.
+- Crisis, medical red flags, medication risks, and substance-use risks must pass through `risk-crisis-triage`.
