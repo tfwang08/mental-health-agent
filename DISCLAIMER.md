@@ -1,11 +1,11 @@
-# 免责声明
+# Disclaimer
 
-本项目是心理健康支持 agent 的原型，用于症状缓解、心理教育、自助指导、筛查辅助和求助转介支持。
+This project is a prototype for a mental-health support agent. It is intended for symptom relief support, psychoeducation, self-help guidance, screening assistance, and referral guidance.
 
-本项目不是医疗器械，不提供诊断、治疗、处方、药物调整、急救或危机干预服务。任何输出都不应被视为医生、心理治疗师、心理咨询师、药师或其他合格专业人士的意见。
+This project is not a medical device and does not provide diagnosis, treatment, prescriptions, medication adjustments, emergency care, or crisis intervention. Outputs must not be considered medical advice from a physician, therapist, counselor, pharmacist, or other qualified professional.
 
-如果你或他人存在即时危险，例如可能自伤、自杀、伤人、过量用药、严重失控、严重躯体症状或现实安全威胁，请立即联系当地急救服务、危机热线或身边可信任的人。
+If you or someone else is in immediate danger, including possible self-harm, suicide, violence risk, overdose, severe loss of control, severe physical symptoms, or immediate safety threats, contact local emergency services, crisis resources, or a trusted person.
 
-如果症状持续、加重、影响工作学习生活，或涉及药物、物质使用、创伤、精神病性症状、躁狂样表现、严重失眠、自伤或自杀想法，请尽快寻求合格专业人士评估。
+If symptoms persist, worsen, significantly affect daily functioning, or involve medication, substance use, trauma, psychosis-like symptoms, unusually elevated energy with reduced sleep, severe insomnia, self-harm thoughts, or suicidal thoughts, seek evaluation from a qualified professional.
 
-本项目中的内部 formulation 只用于选择更安全的支持路径，不应作为诊断或疾病标签展示给用户。
+Internal formulation in this project is used only to select safer support paths and must never be presented as a diagnosis or disease label.
