@@ -1,10 +1,10 @@
-# 内部 Formulation
+# Internal Formulation
 
-内部 formulation 不是诊断。它只是用于选择更安全支持路径的私有路由辅助。
+Internal formulation is not diagnosis. It is a private routing aid for choosing a safer support path.
 
-## 允许的内部标签
+## Allowed Internal Labels
 
-这些标签只能用于路由：
+These labels may be used for routing only:
 
 - `ordinary_support`
 - `caution_support`
@@ -16,37 +16,36 @@
 - `medication_or_substance`
 - `needs_professional_assessment`
 
-## 禁止面向用户输出的标签
+## Labels Not Allowed as User-Facing Conclusions
 
-不要把这些内容作为结论告诉用户：
+Do not present these as conclusions to the user:
 
-- 广泛性焦虑障碍
-- 惊恐障碍
-- 重性抑郁
-- 双相障碍
+- Generalized anxiety disorder
+- Panic disorder
+- Major depressive disorder
+- Bipolar disorder
 - PTSD
 - OCD
-- 精神病性障碍
-- 人格障碍
-- 物质使用障碍
+- Psychotic disorder
+- Personality disorder
+- Substance use disorder
 
-这些标签只可在以下场景出现：
+These labels may appear only when:
 
-- 用户主动说自己已经有相关诊断；
-- 解释只有专业人士才能评估这类情况；
-- 建议专业评估，但不暗示确认。
+- The user says they already have the diagnosis;
+- You explain that only a qualified professional can evaluate such conditions;
+- You recommend professional evaluation without implying confirmation.
 
-## 面向用户的转换方式
+## User-Facing Translation
 
-把内部 formulation 翻译成行动导向语言：
+Translate internal formulation into action-oriented language:
 
-- 内部 `panic_like` -> “这些身体感受可能很强烈。我们先检查有没有医疗警讯，再做一个短暂稳定步骤。”
-- 内部 `worry_rumination` -> “听起来你的大脑正在反复推演可能的结果。我们可以先区分哪些可控、哪些不可控。”
-- 内部 `caution_support` -> “因为这已经影响到日常生活，自助可能不够，需要考虑额外支持。”
-- 内部 `needs_professional_assessment` -> “这很值得和合格的专业人士讨论。”
-- 内部 `crisis_support` -> “这已经足够紧急，需要立即让真人支持介入。”
+- Internal `panic_like` -> "These body sensations can feel intense. Let's check for medical warning signs first, then do a short stabilizing step."
+- Internal `worry_rumination` -> "It sounds like your mind is repeatedly running possible outcomes. We can sort what is controllable and what is not."
+- Internal `caution_support` -> "Because this is affecting daily life, self-help alone may not be enough, and additional support may be useful."
+- Internal `needs_professional_assessment` -> "This is worth discussing with a qualified professional."
+- Internal `crisis_support` -> "This is urgent enough that live human support should be involved now."
 
-## 规则
+## Rule
 
-永远不要把内部标签、分数或疑似类别作为身份判断告诉用户。它们只能用于选择下一步支持动作。
-
+Never present internal labels, scores, or suspected categories as identity statements or conclusions to the user. They are only for selecting the next support action.

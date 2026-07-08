@@ -1,18 +1,17 @@
-# 医疗红旗
+# Medical Red Flags
 
-当惊恐或焦虑样症状包含以下情况时，使用医疗转介模式：
+Use `medical_redirect` mode when panic-like or anxiety-like symptoms include any of the following:
 
-- 胸痛、胸口压迫感或放射性疼痛。
-- 晕厥、严重头晕、癫痫样发作、意识混乱、新发无力、麻木或说话困难。
-- 严重呼吸困难、窒息、嘴唇发蓝或严重过敏症状。
-- 在药物变化、物质使用、疑似过量或戒断后出现新症状。
-- 孕期/产后并发症、头部外伤、严重脱水、严重疼痛或重大疾病。
-- 老年人或有明显心脏、呼吸、神经、内分泌病史的人首次出现严重惊恐样发作。
+- Chest pain, chest pressure, or pain radiating to the arm, jaw, back, or shoulder.
+- Fainting, near-fainting, seizure-like activity, new confusion, new weakness, numbness, or difficulty speaking.
+- Severe breathing difficulty, choking, blue lips, severe allergic symptoms, or new/worsening asthma-like symptoms.
+- New symptoms after medication changes, substance use, suspected overdose, or withdrawal.
+- Pregnancy/postpartum complications, head injury, severe dehydration, severe pain, or serious medical illness.
+- First severe panic-like episode in an older adult or in someone with significant heart, respiratory, neurological, or endocrine history.
 
-响应方式：
+Response pattern:
 
-1. 说明这些症状可能有医学原因，需要尽快评估。
-2. 根据严重程度建议联系急救服务或紧急医疗服务。
-3. 不把症状标记为焦虑。
-4. 只在用户寻求帮助的过程中，提供极短的接地步骤作为过渡。
-
+1. State that these symptoms may have a medical cause and need prompt evaluation.
+2. Depending on severity, recommend emergency services or urgent medical care.
+3. Do not label the symptoms as anxiety.
+4. Offer only a very brief grounding step as a bridge while the user seeks help.

@@ -1,33 +1,32 @@
-# 系统文件
+# System files
 .DS_Store
 Thumbs.db
 
-# 编辑器与本地配置
+# Editors and local settings
 .idea/
 .vscode/
 *.swp
 *.swo
 
-# 环境变量与密钥
+# Environment variables and secrets
 .env
 .env.*
 !.env.example
 
-# 依赖与构建产物
+# Dependencies and build outputs
 node_modules/
 dist/
 build/
 coverage/
 
-# Python 缓存
+# Python cache
 __pycache__/
 *.py[cod]
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 
-# 临时输出
+# Temporary output
 tmp/
 temp/
 *.log
-

@@ -1,18 +1,18 @@
-# 资料来源笔记
+# Source Notes
 
-本项目采用保守的临床工作流思路，主要参考：
+This project follows a conservative clinical workflow model informed by:
 
-- NICE CG113：成人广泛性焦虑和惊恐障碍管理。
-- NICE NG225：自伤的评估、管理和复发预防。
-- NHS Talking Therapies 服务标准：常规结局监测、PHQ-9、GAD-7 和特定焦虑问题的量表。
-- SAMHSA SAFE-T 和 Columbia C-SSRS 的思路：直接询问自杀想法、计划、行为、意图和保护因素。
-- OpenAI 安全最佳实践：moderation、对抗测试、人工监督、限制输入输出，以及明确沟通系统限制。
+- NICE CG113: management of generalized anxiety disorder and panic disorder in adults.
+- NICE NG225: assessment, management, and prevention of recurrence after self-harm.
+- NHS Talking Therapies service standards: routine outcome monitoring, PHQ-9, GAD-7, and problem-specific anxiety measures.
+- SAMHSA SAFE-T and Columbia C-SSRS concepts: direct inquiry about suicidal thoughts, plans, behavior, intent, and protective factors.
+- OpenAI safety best practices: moderation, adversarial testing, human oversight, input/output limits, and clear communication of system limitations.
 
-设计含义：
+Design implications:
 
-- 使用阶梯式支持。
-- 不做诊断。
-- 不暴露内部诊断假设；formulation 只用于安全路由。
-- 不单独用量表分数决定安全状态。
-- 医疗红旗在评估前按医疗问题处理。
-- 危机披露需要真人支持介入。
+- Use stepped support.
+- Do not diagnose.
+- Do not expose internal diagnostic hypotheses; formulation is only for safety routing.
+- Do not use scale scores alone to determine safety.
+- Treat medical red flags as medical until assessed.
+- Crisis disclosures require live human support.

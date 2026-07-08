@@ -1,39 +1,38 @@
-# 风险分类
+# Risk Taxonomy
 
-## 危机信号
+## Crisis Signals
 
-- 有自杀想法，并伴随意图、计划、准备、可获得手段、近期尝试，或无法保证自己安全。
-- 有自伤冲动，并伴随计划、准备、频率升级、严重伤害，或无法延迟行动。
-- 有伤害他人的想法、威胁、武器可及、明确目标，或害怕自己会行动。
-- 类精神病性体验，并伴随命令性幻听、偏执、思维混乱或现实检验能力下降。
-- 严重自我忽视，无法进食、饮水、睡眠到危险程度，或无法照顾依赖自己的人。
-- 当前虐待、剥削、家庭暴力、人口贩卖或即时现实危险。
+- Suicidal thoughts with intent, plan, preparation, available means, recent attempt, or inability to stay safe.
+- Self-harm urges with plan, preparation, escalating frequency, serious injury, or inability to delay action.
+- Thoughts of harming others, threats, weapon access, identified target, or fear of acting.
+- Psychosis-like experiences with command hallucinations, paranoia, disorganized thinking, or impaired reality testing.
+- Severe self-neglect, such as inability to eat, drink, sleep to a medically dangerous degree, or care for dependents.
+- Current abuse, exploitation, domestic violence, trafficking, or immediate real-world danger.
 
-## 医疗红旗
+## Medical Red Flags
 
-- 胸痛、胸口压迫感，或疼痛放射到手臂、下颌、背部。
-- 晕厥、近乎晕厥、新发意识混乱、癫痫样发作、无力、麻木或说话困难。
-- 严重呼吸困难、嘴唇发蓝、窒息、严重过敏反应，或新发/加重的哮喘症状。
-- 在物质使用、药物变化、孕期/产后并发症、头部外伤或重大疾病之后出现新的惊恐样症状。
-- 严重脱水、无法控制的呕吐、严重疼痛，或疑似过量/戒断。
+- Chest pain, chest pressure, or pain radiating to the arm, jaw, back, or shoulder.
+- Fainting, near-fainting, new confusion, seizure-like activity, weakness, numbness, or difficulty speaking.
+- Severe breathing difficulty, blue lips, choking, severe allergic reaction, or new/worsening asthma-like symptoms.
+- New panic-like symptoms after substance use, medication changes, pregnancy/postpartum complications, head injury, or major illness.
+- Severe dehydration, uncontrolled vomiting, severe pain, or suspected overdose/withdrawal.
 
-## 药物和物质使用信号
+## Medication and Substance-Use Signals
 
-- 请求调整剂量、停药、减药、混用或替代药物。
-- 苯二氮卓依赖担忧、戒断症状、酒精戒断、阿片或兴奋剂误用。
-- 把酒精或其他物质与抗焦虑药混用。
-- 询问用补充剂替代治疗。
+- Requests to change dosage, stop, taper, mix, or replace medication.
+- Benzodiazepine dependence concerns, withdrawal symptoms, alcohol withdrawal, opioid misuse, or stimulant misuse.
+- Mixing alcohol or other substances with anti-anxiety medication.
+- Requests to use supplements as replacements for treatment.
 
-## 谨慎信号
+## Caution Signals
 
-- 症状持续数周到数月，并影响功能。
-- 反复惊恐发作、回避行为或广场恐惧样行为。
-- 高焦虑同时伴随抑郁、绝望、物质使用、进食问题、强迫症状、创伤症状或双相谱系线索。
-- 几夜几乎不睡但精力异常高涨、冲动、自我评价异常膨胀或冒险行为增加。
-- 未成年人、孕期/产后、老年人新发症状，或认知损害。
+- Symptoms lasting weeks to months with functional impairment.
+- Repeated panic attacks, avoidance behavior, or agoraphobia-like behavior.
+- High anxiety with depression, hopelessness, substance use, eating concerns, compulsive symptoms, trauma symptoms, or bipolar-spectrum signals.
+- Several nights with little sleep plus unusually high energy, impulsivity, inflated self-confidence, or increased risky behavior.
+- Minors, pregnancy/postpartum users, older adults with new symptoms, or users with cognitive impairment.
 
-## 普通支持信号
+## Ordinary Support Signals
 
-- 情境压力、担忧、反刍、轻中度焦虑、考试/表现焦虑、非紧急的惊恐恢复，或希望获得自助支持。
-- 没有即时危险、医疗红旗、药物请求或严重功能受损。
-
+- Situational stress, worry, rumination, mild-to-moderate anxiety, test/performance anxiety, non-urgent panic recovery, or requests for self-help support.
+- No immediate danger, medical red flags, medication requests, substance-use danger, or severe functional impairment.

@@ -1,25 +1,25 @@
-# 焦虑支持临床路径草案
+# Anxiety Support Clinical Pathway Draft
 
-本草案把项目 skills 映射到一个保守的阶梯式支持流程。
+This draft maps repository skills to a conservative stepped-support pathway.
 
-## 路径
+## Pathway
 
-1. 所有心理健康请求先经过安全门。
-2. 有危机或医疗红旗时，进入危机/医疗分流。
-3. 进行焦虑相关 intake：症状、持续时间、功能影响、共病线索、物质使用和既往支持经历。
-4. 量表选择：默认使用 GAD-7 和 PHQ-9；当特定模式很清楚时，可内部使用更具体的量表，但结果必须呈现为非诊断的下一步建议。
-5. 阶梯式路由：
-   - 对轻度或亚临床表现，提供心理教育和主动监测；
-   - 对适合自助且没有危机场景的用户，提供低强度 CBT 风格自助；
-   - 对持续、影响功能、复杂或伴随共病线索的情况，建议专业评估；
-   - 对危机或医疗红旗，转向紧急支持。
-6. 后续监测分数、功能影响和用户自己的目标。
+1. All mental-health requests pass through the safety harness first.
+2. If crisis signals or medical red flags are present, route to crisis or medical triage.
+3. For anxiety-related intake, gather symptoms, duration, functional impact, comorbidity signals, substance use, medication context, and previous support history.
+4. Measurement selection: use GAD-7 and PHQ-9 by default for monitoring and screening support. When a specific pattern is clear, a more specific measure may be used internally, but results must be presented as non-diagnostic next-step guidance.
+5. Stepped routing:
+   - For mild or subclinical distress, provide psychoeducation and active monitoring.
+   - For users suitable for self-help without crisis or medical red flags, provide low-intensity CBT-style self-help.
+   - For persistent, impairing, complex, or comorbid presentations, recommend professional evaluation.
+   - For crisis or medical red flags, redirect to urgent human or medical support.
+6. Follow up on scores, functional impact, and the user's own goals.
 
-## 面向用户原则
+## User-Facing Principle
 
-不要告诉用户“你有某病”或“这就是某病”。产品目标是缓解痛苦、改善功能、监测模式，并在需要时鼓励专业评估。内部 formulation 只用于安全路由。
+Do not tell users "you have X" or "this is X". The product goal is to reduce distress, improve function, monitor patterns, and encourage professional evaluation when needed. Internal formulation is only for safety routing.
 
-## 计划中的 Skills
+## Planned Skills
 
 - `anxiety-intake-assessment`
 - `gad7-phq9-monitoring`

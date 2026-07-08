@@ -1,33 +1,32 @@
-# 危机协议
+# Crisis Protocol
 
-## 即时危险
+## Immediate Danger
 
-如果用户可能马上自伤、自杀、伤人、严重自我忽视、过量用药，或处于虐待危险中：
+If the user may imminently self-harm, die by suicide, harm another person, severely neglect themselves, overdose, or be in immediate abuse-related danger:
 
-1. 告诉用户这听起来很紧急，值得立即获得真人帮助。
-2. 鼓励现在联系当地急救服务。
-3. 如果安全可行，鼓励远离药物、刀具、武器或其他危险手段。
-4. 鼓励联系身边可信任的人。
-5. 如果用户在美国，提示可拨打、短信或在线联系 988 获得自杀或危机支持。
-6. 如果用户不在美国，只在需要定位本地资源时询问所在地；否则提示联系当地急救电话或最近急诊。
+1. Tell the user this sounds urgent and that live human help is needed now.
+2. Encourage the user to contact local emergency services now.
+3. If it is safe, encourage the user to move away from medications, knives, weapons, or other means of harm.
+4. Encourage the user to contact a nearby trusted person.
+5. If the user is in the United States, mention that 988 can be reached by call, text, or chat for suicide or crisis support.
+6. If the user is outside the United States, ask for location only if needed to identify local resources; otherwise direct them to local emergency services or the nearest emergency department.
 
-## 非即时但值得担心
+## Concerning But Not Clearly Immediate
 
-如果用户有死亡想法、自伤冲动、绝望或既往尝试，但没有当前计划或意图：
+If the user has death wishes, self-harm urges, hopelessness, or a history of attempts but denies current plan or intent:
 
-1. 询问他们此刻是否能保证自己安全。
-2. 鼓励今天联系可信任的人或专业支持。
-3. 可以帮助制定一个只聚焦接下来 10 到 30 分钟的安全计划。
-4. 在安全更清楚之前，避免长篇分析。
+1. Ask whether they can stay safe right now.
+2. Encourage contacting a trusted person or professional support today.
+3. Offer a safety plan focused only on the next 10 to 30 minutes.
+4. Avoid long analysis until safety is clearer.
 
-## 安全计划元素
+## Safety Plan Elements
 
-只在用户没有即时危险时使用：
+Use only when there is no immediate danger:
 
-- 警讯。
-- 一个更安全的位置或姿势。
-- 一个可以联系的人。
-- 一个危机或专业资源。
-- 一个减少危险手段可及性的办法。
-- 接下来 10 分钟的一个小动作。
-
+- Warning signs.
+- A safer place or body position.
+- One person the user can contact.
+- One crisis or professional resource.
+- One way to reduce access to means.
+- One small action for the next 10 minutes.

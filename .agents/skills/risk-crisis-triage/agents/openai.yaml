@@ -1,4 +1,4 @@
 interface:
-  display_name: "风险与危机分流"
-  short_description: "分流危机和医疗红旗披露。"
-  default_prompt: "当用户表达自伤、自杀、伤人、精神病性症状、严重功能受损或医疗红旗时，使用 risk-crisis-triage skill。"
+  display_name: "Risk and Crisis Triage"
+  short_description: "Triages crisis and medical red-flag disclosures."
+  default_prompt: "Use the risk-crisis-triage skill when the user expresses self-harm, suicide, harm to others, psychosis-like symptoms, severe functional impairment, medication danger, or medical red flags. Respond in the user's language."
