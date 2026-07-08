@@ -11,7 +11,7 @@ Language: [中文](README.md) | **English**
 >
 > If you or someone else may be in immediate danger, including self-harm, suicide, violence risk, overdose, severe loss of control, chest pain, fainting, severe breathing difficulty, neurological symptoms, or other urgent medical concerns, seek immediate human or medical support.
 
-This is a Chinese-user-oriented mental-health support agent prototype containing project-local Codex skills, safety rules, and synthetic evaluation cases.
+This is a mental-health support agent prototype containing project-local Codex skills, safety rules, and synthetic evaluation cases.
 
 The first phase focuses on anxiety support. The project intentionally starts with safety infrastructure before adding more intervention workflows.
 
