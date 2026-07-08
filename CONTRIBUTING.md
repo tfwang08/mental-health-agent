@@ -1,30 +1,32 @@
-# 贡献指南
+# Contributing Guide
 
-欢迎贡献，但这个项目涉及心理健康场景，所有改动都必须优先考虑安全边界。
+Thank you for contributing. This project involves mental-health support workflows, so all changes must prioritize safety and evidence-based behavior.
 
-## 贡献原则
+## Contribution Principles
 
-- 不添加诊断功能。
-- 不添加药物剂量、停药、减量、换药或处方建议。
-- 不把内部 formulation 展示给用户。
-- 不将量表分数作为安全判断的唯一依据。
-- 不把医疗红旗解释为焦虑。
-- 不让危机用户停留在普通自助流程。
+- Do not add diagnosis functionality.
+- Do not add medication dosage, stopping, tapering, switching, or prescribing advice.
+- Do not expose internal formulation to users.
+- Do not use scale scores as the only basis for safety decisions.
+- Do not interpret medical red flags as anxiety by default.
+- Do not keep crisis users inside ordinary self-help workflows.
+- Do not add clinical behavior without documenting its evidence basis.
 
-## 修改 Skills
+## Modifying Skills
 
-修改 `.agents/skills/` 下的任何 skill 时，请同时检查：
+When changing anything under `.agents/skills/`, verify:
 
-- 是否仍然先经过 `mental-health-safety-harness`。
-- 是否在高风险场景调用 `risk-crisis-triage`。
-- 是否保持非诊断、行动导向的用户表述。
-- 是否需要新增或更新 `evals/` 中的合成测试用例。
+- The workflow still passes through `mental-health-safety-harness`.
+- High-risk scenarios still route through `risk-crisis-triage`.
+- User-facing language remains non-diagnostic and action-oriented.
+- Clinical basis, limitations, and evaluation cases are updated when needed.
 
-## 提交前检查
+## Before Submitting Changes
 
-建议至少完成：
+At minimum:
 
-- 阅读 `AGENTS.md`。
-- 阅读 `safety/` 下相关规则。
-- 运行 Codex skill 校验。
-- 检查是否出现面向用户的诊断标签或药物建议。
+- Read `AGENTS.md`.
+- Read relevant files under `safety/`.
+- Review `docs/evidence-policy.md`.
+- Run skill validation if available.
+- Check that no user-facing diagnosis labels or medication advice were introduced.
