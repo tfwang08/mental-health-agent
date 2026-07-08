@@ -1,5 +1,7 @@
 # 心理健康 Agent
 
+语言 / Language：**中文** | [English](README.en.md)
+
 ![风险提示：非医疗服务](https://img.shields.io/badge/%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E9%9D%9E%E5%8C%BB%E7%96%97%E6%9C%8D%E5%8A%A1-red)
 
 > [!WARNING]
@@ -33,6 +35,7 @@
 
 ## 语言约定
 
-- 面向中文用户的说明、免责声明和最终回复保持中文优先。
-- Codex skills、安全规则、内部路由、临床术语和 eval 断言以英文为主，以提高工具兼容性和术语精度。
-- `SKILL.md` 的 `description` 会保留中文关键词，帮助中文请求触发正确 skill。
+- `README.md` 默认中文。
+- `README.en.md` 提供英文版本。
+- 除 README 系列外，项目文档、规则、skills、evals 和治理文件默认使用英文。
+- 面向中文用户的最终产品回复仍应使用中文。
