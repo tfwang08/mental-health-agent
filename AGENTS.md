@@ -30,10 +30,11 @@ Before any anxiety, depression, panic, trauma, OCD, ADHD, sleep, or substance-us
 
 ## Language Policy
 
-- Internal rules, routing logic, safety taxonomy, and skill instructions may be written in English for precision and compatibility.
+- `README.md` is the default Chinese entry point.
+- `README.en.md` is the English entry point.
+- All other repository files should be written in English by default.
 - User-facing replies must be in the user's language.
 - If the user writes in Chinese, reply in Chinese.
-- Keep Chinese trigger terms in skill descriptions when they improve skill activation.
 
 ## Output Rules
 
