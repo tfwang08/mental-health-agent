@@ -1,6 +1,6 @@
 ---
 name: mental-health-safety-harness
-description: Use before any mental health, anxiety, panic, depression, trauma, OCD, ADHD, sleep, substance use, self-help, screening, or emotional support workflow. Also use for Chinese user requests involving 心理健康、焦虑、惊恐、抑郁、创伤、强迫、睡眠、自伤、自杀、药物 or 情绪支持. Enforces non-diagnostic boundaries, detects crisis or medical red flags, selects a response mode, and decides whether downstream mental-health skills may safely continue.
+description: Use before any mental health, anxiety, panic, depression, trauma, OCD, ADHD, sleep, substance use, self-help, screening, or emotional support workflow. Also use for Chinese user requests involving 心理健康、焦虑、惊恐、抑郁、创伤、强迫、睡眠、自伤、自杀、药物 or 情绪支持. Enforces non-diagnostic boundaries, evidence grounding, detects crisis or medical red flags, selects a response mode, and decides whether downstream mental-health skills may safely continue.
 ---
 
 # Mental Health Safety Harness
@@ -15,6 +15,7 @@ Always respond in the user's language. If the user writes in Chinese, respond in
 
 When applying this skill, read these project files:
 
+- `../../../docs/evidence-policy.md`
 - `../../../safety/clinical-boundaries.md`
 - `../../../safety/internal-formulation.md`
 - `../../../safety/risk-taxonomy.md`
@@ -28,20 +29,20 @@ If there is any self-harm, suicide, violence, psychosis-like symptom, abuse, exp
 ## Workflow
 
 1. Determine whether the user is asking for mental-health support, screening, emotional support, psychoeducation, or coping help.
-2. Check crisis signals: suicide, self-harm, harm to others, psychosis-like experiences, severe self-neglect, abuse, exploitation, or immediate danger.
-3. Check medical red flags: chest pain, fainting, severe breathing difficulty, neurological symptoms, suspected overdose or withdrawal, medication changes, pregnancy/postpartum complications, head injury, or first severe panic-like symptoms in a medically high-risk person.
-4. Check medication or substance-use signals: dosage changes, stopping or tapering medication, interactions, mixing with alcohol or drugs, withdrawal, or replacing treatment with supplements.
-5. Check caution signals: persistent functional impairment, complex comorbidity, repeated panic attacks, severe insomnia with unusually high energy, minors, pregnancy/postpartum, or medically vulnerable users.
-6. Use internal formulation only to choose a safer support path. Do not expose suspected disorder labels to the user.
-7. Select exactly one response mode: `support`, `caution`, `medical_redirect`, or `crisis`.
-8. Continue only with downstream skills allowed by the selected response mode.
+2. Check crisis signals, medical red flags, medication/substance risks, and caution signals.
+3. Verify that any downstream recommendation is supported by an evidence source or intentionally limited to general supportive guidance.
+4. Use internal formulation only to choose a safer support path. Do not expose suspected disorder labels to the user.
+5. Select exactly one response mode: `support`, `caution`, `medical_redirect`, or `crisis`.
+6. Continue only with downstream skills allowed by the selected response mode.
 
-## Response Mode Rules
+## Evidence Boundary
 
-- `support`: Continue with ordinary self-help, screening support, monitoring, and coping skills.
-- `caution`: Provide limited coping support and recommend professional evaluation. Avoid deep therapy work.
-- `medical_redirect`: Stop ordinary mental-health support and recommend medical evaluation.
-- `crisis`: Stop ordinary support and use immediate safety guidance.
+Before suggesting any intervention:
+
+- Identify whether it comes from a guideline, validated measure, intervention manual, or reviewed evidence source.
+- Do not create clinical recommendations from intuition alone.
+- If evidence is unclear, reduce specificity and prefer monitoring, supportive language, or professional evaluation.
+- Do not transform a plausible explanation into a diagnosis or treatment plan.
 
 ## Output Requirements
 
@@ -61,6 +62,6 @@ Always preserve these boundaries:
 After classification:
 
 - If `crisis`, use `risk-crisis-triage`.
-- If `medical_redirect`, follow medical red-flag guidance. Do not continue anxiety exercises except as a very brief bridge while the user seeks help.
-- If `caution`, recommend professional evaluation. Use low-intensity skills only when they do not delay help-seeking.
-- If `support`, continue with anxiety, panic, screening, worry-sorting, relaxation, or action-planning skills as appropriate.
+- If `medical_redirect`, follow medical red-flag guidance.
+- If `caution`, recommend professional evaluation.
+- If `support`, continue only with evidence-aligned skills.
