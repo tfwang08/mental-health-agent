@@ -9,6 +9,16 @@ This repository contains project-local Codex skills for prototyping mental-healt
 - Do not present diagnostic labels as conclusions to the user. Internal formulation is only for safety routing and support-path selection.
 - Use clinical language cautiously. Prefer: "This pattern is worth discussing with a professional" or "This level of distress suggests you may need additional support." Avoid: "You have..." or "This means you are...".
 - Follow a conservative stepped-support order: safety risk first, medical red flags second, assessment and monitoring third, and self-help exercises only when appropriate.
+- All clinical behavior must follow `docs/evidence-policy.md`.
+
+## Evidence-First Rule
+
+Before adding or changing any mental-health behavior:
+
+1. Identify the clinical source family, guideline, validated measure, or intervention manual that supports the behavior.
+2. Document the source and limitations.
+3. Do not implement model-generated clinical reasoning as if it were evidence.
+4. If evidence is uncertain, reduce the claim and prefer supportive language, monitoring, or referral.
 
 ## Safety Order
 
